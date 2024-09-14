@@ -1,0 +1,10 @@
+# TaxPlugin Configuration
+
+# Percentage of the player's balance that will be taxed (in decimals)
+tax-rate: 0.05  # This means 5%
+
+# Time interval between tax collection (in minutes)
+tax-interval: 60  # Collect tax every 60 minutes
+
+# Minimum balance required to apply tax
+minimum-balance: 100.0  # Minimum of 100 currency units required for taxation

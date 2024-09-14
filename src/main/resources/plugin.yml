@@ -1,0 +1,12 @@
+name: TaxPlugin
+version: '1.0-SNAPSHOT'
+main: me.kevinpanchal.taxPlugin.TaxPlugin
+api-version: '1.20'
+commands:
+  taxreload:
+    description: Reloads the TaxPlugin configuration.
+    permission: taxplugin.reload
+permissions:
+  taxplugin.reload:
+    description: Allows the player to reload TaxPlugin config.
+    default: op
